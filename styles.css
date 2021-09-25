@@ -1,0 +1,109 @@
+body
+{
+    
+	background-image: url(https://creapills.com/wp-content/uploads/2020/04/studio-ghibli-fonds-ecrans-videoconference-5.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align:justify;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+h1
+{
+  margin-left: 37%;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+
+#page1
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+    
+}
+
+.ronde
+{
+  width: 380px;
+  height: 450px;
+ 
+}
+
+
+a
+{
+  outline: none;
+  text-decoration: none;
+}
+
+a:link{
+  color:rgb(146, 74, 218);
+      }
+
+
+.box{
+  background: rgba(244, 223, 217, 0);  /* Effet glassmorphisme */
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12px );
+  -webkit-backdrop-filter: blur( 12px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  flex-basis: 25%;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 4%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 80px;
+  
+    }
+
+
+
+@media all and (max-width: 1024px)
+{
+  #page1
+  {
+    width: auto;
+  }
+}
+
+
+@media screen and (max-width: 64em) {
+h1  {
+  font-size: 2.5em;
+  margin: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .box  {
+  margin-bottom: 10%;
+  margin-right: auto;
+}
+}
+
+footer
+{
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Audio
+{
+margin: auto;
+}
